@@ -1,0 +1,69 @@
+#resume {
+    position: relative;
+    width: 1044px;
+    min-width: 1044px;
+    max-width: 1044px;
+    margin: auto;
+}
+hr {
+    border-color: #ff5454;
+}
+.its-me {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    width: calc(100% - 4rem);
+    height: auto;
+    z-index: 1;
+    background-color: white;
+    padding: 0.5rem;
+}
+.me-content {
+    background-color: #ff5454;
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+}
+.me-content p {
+    line-height: 1rem;
+}
+.profile {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: calc(100% - 2rem);
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.skills-section {
+    color: #ff5454;
+}
+
+.summary-item {
+    width: max-content;
+    color: white;
+    background-color: #ff5454;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.skills-section .progress {
+    height: 0.5rem;
+}
+.skills-section .progress-bar {
+    background-color: #ff5454;
+}
+
+.main-section, .skills-section {
+    padding-top: 19rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.print-resume {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    transform: translateX(-50%);
+}
