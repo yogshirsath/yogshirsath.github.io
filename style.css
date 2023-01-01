@@ -6,7 +6,7 @@
     margin: auto;
 }
 hr {
-    border-color: #ff5454;
+    border-color: #fd8b8b;
 }
 .its-me {
     position: absolute;
@@ -19,7 +19,7 @@ hr {
     padding: 0.5rem;
 }
 .me-content {
-    background-color: #ff5454;
+    background-color: #fd8b8b;
     color: white;
     padding: 0.5rem;
     position: relative;
@@ -37,13 +37,13 @@ hr {
 }
 
 .skills-section {
-    color: #ff5454;
+    color: #fd8b8b;
 }
 
 .summary-item {
     width: max-content;
     color: white;
-    background-color: #ff5454;
+    background-color: #fd8b8b;
     padding: 0.2rem 0.5rem;
     text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ hr {
     height: 0.5rem;
 }
 .skills-section .progress-bar {
-    background-color: #ff5454;
+    background-color: #fd8b8b;
 }
 
 .main-section, .skills-section {
