@@ -29,6 +29,10 @@ hr {
     padding: 0.5rem;
     border-radius: var(--border-radius);
 }
+.its-me a {
+    color: var(--skill-color);
+    text-decoration: none;
+}
 .me-content {
     background-color: var(--primary-color);
     color: white;
@@ -87,9 +91,3 @@ hr {
     padding-right: 2rem;
 }
 
-.print-resume {
-    position: fixed;
-    right: var(--padding);
-    bottom: var(--padding);
-    transform: translateX(-50%);
-}
