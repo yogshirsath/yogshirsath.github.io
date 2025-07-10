@@ -131,14 +131,10 @@ hr {
     padding-bottom: var(--skill-gap);
     border-bottom: var(--border);
 }
+.skill-wrap:not(:first-child) {
+    margin-top: 1rem;
+}
 
-.skills-section .progress {
-    height: 0.5rem;
-    border: 1px solid var(--primary-color)
-}
-.skills-section .progress-bar {
-    background-color: var(--primary-color);
-}
 
 .skills-section .image-wrap {
     display: flex;
@@ -163,15 +159,15 @@ hr {
     padding-right: 2rem;
 }
 
-.print-show {
+/* .print-show {
     display: none;
-}
+} */
 
-@media print {
+/* @media print { */
     .print-none {
         display: none !important;
     }
     .print-show {
         display: block;
     }
-}
+/* } */
